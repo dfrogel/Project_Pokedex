@@ -1,0 +1,16 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /*Considera borda parte doo tamanho total*/
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem; /* definir tamanhos relativos ao tamanho da fonte do elemento raiz */
+    background-color: #FFF;
+}
+
