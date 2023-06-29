@@ -194,7 +194,7 @@
 }
 
 .pagination {
-  background-color: #661a8d;
+  background-color: #661a8d00;
   border-radius: 1rem;
   width: 33%;
   height: 4rem;
@@ -206,10 +206,10 @@
 }
 
 #loadMoreButton {
-  background-color: #9f74b3;
+  background-color: #9f74b34d;
   font-size: 1.4rem;
   border-radius: 1rem;
-  border: 2px solid rgb(102 26 141);
+  border: 2px solid rgb(102 26 141 / 12%);
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;

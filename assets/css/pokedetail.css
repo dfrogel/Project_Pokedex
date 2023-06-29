@@ -13,13 +13,6 @@
   z-index: 1;
 }
 
-#detailsPokemon {
-  border: 1px solid black;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.459);
-  border-radius: 1rem;
-  padding: 1rem;
-}
-
 .pokeHeader {
   display: block;
   }
