@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -19,23 +19,57 @@
     <!-- Meu CSS-->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="assets/css/pokedetail.css">
 
 </head>
 
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <div id="header">
+            <a
+                href="https://w7.pngwing.com/pngs/632/853/png-transparent-pikachu-character-pokemon-x-and-y-pokemon-go-pikachu-pikachu-mammal-dog-like-mammal-vertebrate-thumbnail.png"><img
+                    src="assets/images/pngwing.com.png" alt="Pikachu" id="pikachuLogo" /></a>
+            <h1 id="title">Pokedex da Duda</h1>
+
+        </div>
+
+        <!-- Detalhe dos pokemons inseridos aqui-->
+
+        <div id="detailsPokemon">
+            <!-- Aqui serão exibidos os detalhes do Pokémon selecionado -->
+        </div>
 
         <ol id="pokemonList" class="pokemons">
-            <!-- Pokemons here -->
+            <!-- Pokemons API -->
         </ol>
 
-        <div class="pagination">
+        <div id="loadMoreDiv" class="pagination">
             <button id="loadMoreButton" type="button">
-                Load more
-            </button> 
+                Load more Pokemons
+            </button>
         </div>
     </section>
+
+    <footer>
+        <em>@2023 Desenvolvido por Eduarda Frogel</em> </br>
+
+        <a href="https://www.instagram.com/dfrogel/" target="_blank"><img
+                src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+                target="_blank" /></a>
+
+        <a href="mailto:dudafrogel23@gmail.com"><img
+                src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
+                target="_blank" /></a>
+
+        <a href="https://www.linkedin.com/in/eduardafrogel/" target="_blank"><img
+                src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                target="_blank" /></a>
+
+        <a href="https://github.com/dfrogel" target="_blank"><img
+                src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                target="_blank" /></a>
+
+    </footer>
 
     <!-- Meu JS -->
     <script src="/assets/js/poke-api.js"></script>
