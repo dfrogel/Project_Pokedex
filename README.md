@@ -2,6 +2,19 @@
 
 <img src="https://i.pinimg.com/originals/9d/70/19/9d7019904a013ab20ccd7f2bda11e11f.gif" alt="gif animado" width="300" height="300">
 
+## Summary
+
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Running Project](#running-the-project)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
 ## Description
 The Pokedex is an interactive web application that serves as your ultimate companion for exploring and discovering information about various Pokemon. Powered by the Pokemon API, this project provides up-to-date data and delivers an immersive experience to users. Whether you're a seasoned trainer or a curious fan, the Pokedex allows you to dive into the world of Pokemon and catch 'em all!
 
